@@ -1,0 +1,28 @@
+# Environnement virtuel Python
+.venv/
+
+# Dossiers de build PyInstaller
+dist/
+build/
+build_tmp/
+*.spec
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Éditeurs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Fichier résiduel
+sys
