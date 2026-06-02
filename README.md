@@ -1,7 +1,7 @@
 # ⬡ Project Scaffolder
 
 Outil portable de création automatique de structures de projets clients.  
-Fonctionne **sans installation** et **sans droits administrateur**, sous Windows et Linux.
+Fonctionne **sans installation** et **sans droit administrateur**, sous Windows et Linux.
 
 ---
 
@@ -10,7 +10,7 @@ Fonctionne **sans installation** et **sans droits administrateur**, sous Windows
 - 📁 Génère en un clic l'arborescence complète d'un nouveau projet
 - ✅ Cases à cocher pour choisir exactement ce qu'on veut créer
 - ⚙️ Panneau de configuration pour gérer ses propres templates (dossiers + fichiers avec contenu pré-rempli)
-- 💾 Configuration sauvegardée en JSON, modifiable à la main
+- 💾 Configuration sauvegardée en JSON, modifiable manuellement
 - 🖼️ Support du logo PNG personnalisé
 - 🪟 Exécutable portable : un seul fichier `.exe` (Windows) ou binaire (Linux)
 
@@ -44,7 +44,7 @@ Distribue uniquement **2 fichiers** :
 - `ProjectScaffolder` (ou `.exe` sur Windows)
 - `config.json`
 
-Et optionnellement `logo.png` pour afficher ton logo.
+Et optionnellement `logo.png` pour afficher un logo.
 
 ---
 
