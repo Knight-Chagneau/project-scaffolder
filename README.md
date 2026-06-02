@@ -11,7 +11,6 @@ Fonctionne **sans installation** et **sans droit administrateur**, sous Windows 
 - ✅ Cases à cocher pour choisir exactement ce qu'on veut créer
 - ⚙️ Panneau de configuration pour gérer ses propres templates (dossiers + fichiers avec contenu pré-rempli)
 - 💾 Configuration sauvegardée en JSON, modifiable manuellement
-- 🖼️ Support du logo PNG personnalisé
 - 🪟 Exécutable portable : un seul fichier `.exe` (Windows) ou binaire (Linux)
 
 ---
@@ -44,8 +43,6 @@ Distribue uniquement **2 fichiers** :
 - `ProjectScaffolder` (ou `.exe` sur Windows)
 - `config.json`
 
-Et optionnellement `logo.png` pour afficher un logo.
-
 ---
 
 ## Structure du projet
@@ -53,8 +50,7 @@ Et optionnellement `logo.png` pour afficher un logo.
 ```
 ├── app.py          # Application principale
 ├── build.py        # Script de build PyInstaller
-├── config.json     # Templates par défaut
-├── logo.png        
+├── config.json     # Templates par défaut      
 └── requirements.txt
 ```
 
