@@ -54,32 +54,9 @@ Et optionnellement `logo.png` pour afficher ton logo.
 ├── app.py          # Application principale
 ├── build.py        # Script de build PyInstaller
 ├── config.json     # Templates par défaut
-├── logo.png        # Ton logo (optionnel)
+├── logo.png        
 └── requirements.txt
 ```
-
----
-
-## Personnalisation
-
-### Ton nom et les infos de l'app
-
-Dans `app.py`, modifie les constantes en bas du fichier :
-
-```python
-APP_NAME        = "Project Scaffolder"
-APP_VERSION     = "1.0.0"
-APP_AUTHOR      = ""        # ← ton nom ici
-APP_DESCRIPTION = "..."
-APP_LICENSE     = "MIT License — Logiciel libre et open source"
-APP_YEAR        = "2025"
-```
-
-### Logo personnalisé
-
-Place un fichier `logo.png` à côté de l'exécutable.  
-Format recommandé : PNG avec transparence, carré, minimum 128×128 px.  
-Sans logo, un logo vectoriel de secours s'affiche automatiquement.
 
 ---
 
